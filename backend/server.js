@@ -15,8 +15,8 @@ mongoose.connect("mongodb://localhost:27017/contactDB", {
 
 app.use('/contacts', contactRoutes);
 
-app.listen(5001, () => {
-    console.log("server started on port 5001");
+app.listen(5003, () => {
+    console.log("server started on port 5003");
 });
 
 //User details
